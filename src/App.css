@@ -1,0 +1,15 @@
+
+*,*:after,*::before {box-sizing: border-box;}
+h1 {text-align:center;}
+h1 a {text-decoration: none; color:gray;}
+.menu {width:100%;background:#131313;}
+nav a {text-decoration: none; color:gray;}
+nav {width:60%; margin:0 auto;display: flex;height:50px;
+      align-items: center;  text-align: center;}
+nav a {width:25%;display:inline-block;color:#fff;
+      line-height: 50px;}
+p {text-align: center;}
+
+nav>a {position:relative;}
+nav ul {position:absolute;left:0;top:50px;display:block;
+        display:none;width:100%;background: #131313;}
